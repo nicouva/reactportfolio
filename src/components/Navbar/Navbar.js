@@ -42,9 +42,6 @@ const Navbar = () => {
             <Link to="/reactportfolio/portfolio">Portfolio</Link>
           </Button>
           <Button variant="contained" color="primary">
-            <Link to="/reactportfolio/about">About Me</Link>
-          </Button>
-          <Button variant="contained" color="primary">
             <Link to="/reactportfolio/contact">Contact</Link>
           </Button>
         </ToolBar>
