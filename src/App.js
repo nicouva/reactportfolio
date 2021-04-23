@@ -5,10 +5,28 @@ import {
   Switch
 } from 'react-router-dom'
 import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import Porfolio from './pages/Portfolio'
+import Contact from './pages/Contact'
 
 const App = () => {
   return (
-    <h1>Hello World!</h1>
+    <Router>
+      <div>
+        <Navbar />
+        <Switch>
+          <Route exact path="/reactportfolio/">
+            <Home />
+          </Route>
+          <Route exact path="/reactportfolio/portfolio">
+            <Porfolio />
+          </Route>
+          <Route exact path="/reactportfolio/contact">
+            <Contact />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   )
 }
 

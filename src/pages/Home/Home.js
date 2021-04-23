@@ -6,7 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import Myself from '../../img/myself.jpg'
+import MyselfImg from '../../img/myself.jpg'
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -52,7 +52,7 @@ const Home = () => {
             </Typography>
             <CardMedia 
             className={classes.media}
-            image={Myself} />
+            image={MyselfImg} />
 
             <Typography variant="body1" component="p">
               Hello! My name is Nicole. I was born in New York and raised in New England and Florida. After many years in Florida, I found my way to New York City. As a person who loves to travel and challenge herself, I studied International Relations and Modern Languages with an emphasis on East Asian Studies in Eckerd College ultimately getting a MA from Webster University in International Relations and Global Affairs. After working for President Obama's reelection campaign, I began a career in Hospitality in New York City.
