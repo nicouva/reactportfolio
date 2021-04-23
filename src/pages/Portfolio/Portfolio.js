@@ -27,17 +27,17 @@ const projects = [
   {
     img: SorteoImg,
     name: 'Sorteo',
-    description: "Platform that allows social media influencers to host, track and create giveaways/campaigns that randomly selects winners and transparency for followers when signing up."
-    link:"http://ec2-3-86-101-171.compute-1.amazonaws.com:3000/"
-    github:"https://github.com/nicouva/mysorteo"
+    description: "Platform that allows social media influencers to host, track and create giveaways/campaigns that randomly selects winners and transparency for followers when signing up.",
+    link:"http://ec2-3-86-101-171.compute-1.amazonaws.com:3000/",
+    github:"https://github.com/nicouva/mysorteo",
     cardType:"white"
   },
   {
     img: HolipaysImg,
     name: "Happy Holi-PAYS",
-    description: "Holiday themed budget app that's ideal for organizing all the user's various holiday needs."
-    link: "https://pure-bayou-01842.herokuapp.com/index.html"
-    github: "https://github.com/nicouva/Project-2"
+    description: "Holiday themed budget app that's ideal for organizing all the user's various holiday needs.",
+    link: "https://pure-bayou-01842.herokuapp.com/index.html",
+    github: "https://github.com/nicouva/Project-2",
     cardType: 'grey'
   },
   {

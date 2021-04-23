@@ -10,7 +10,6 @@ import MyselfImg from '../../img/myself.jpg'
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 import CardMedia from '@material-ui/core/CardMedia';
-import classes from '*.module.css';
 
 const useStyles = makeStyles({
   root: {

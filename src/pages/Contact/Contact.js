@@ -12,7 +12,6 @@ import Container from '@material-ui/core/Container';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import classes from '*.module.css';
 
 const useStyles = makeStyles((theme) => ({
 
@@ -68,14 +67,14 @@ const Contact = () => {
               Please fill out this form: 
             </Typography>
           </CardContent>
-          <form className{classes.root} noValidate autoComplete="off">
+          <Form className={classes.root} noValidate autoComplete="off">
             <TextField id="standard-basic" label="name" />
             <TextField id="standard-basic" label="email" />
             <TextField id="messageText" label="message" multiline rows={4} variant="outlined" fullWidth />
             <Button variant="contained" color="primary">
               Submit
 </Button>
-          </form>
+          </Form>
         </Card>
       </Container>
     
