@@ -12,6 +12,7 @@ import Container from '@material-ui/core/Container';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import Form from '../../components/Form'
 
 const useStyles = makeStyles((theme) => ({
 
@@ -39,6 +40,8 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Contact = () => {
+
+  const classes = useStyles();
 
   return (
     <>

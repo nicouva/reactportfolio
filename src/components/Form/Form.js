@@ -1,6 +1,8 @@
-const Form = () => {
-  return (
+import React, { Component } from 'react'
 
+function Form () {
+  return (
+    <h1>Test</h1>
   )
 }
 

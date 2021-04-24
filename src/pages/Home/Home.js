@@ -30,10 +30,13 @@ const useStyles = makeStyles({
   },
   media: {
     height: 300,
+    width: 300
   }
 });
 
 const Home = () => {
+
+  const classes = useStyles();
   
   return (
     <React.Fragment>
@@ -56,11 +59,15 @@ const Home = () => {
             <Typography variant="body1" component="p">
               Hello! My name is Nicole. I was born in New York and raised in New England and Florida. After many years in Florida, I found my way to New York City. As a person who loves to travel and challenge herself, I studied International Relations and Modern Languages with an emphasis on East Asian Studies in Eckerd College ultimately getting a MA from Webster University in International Relations and Global Affairs. After working for President Obama's reelection campaign, I began a career in Hospitality in New York City.
               <br />
+              <br />
               I worked for Patina Restaurant Group, a premier hospitality conglomerate. I successfully executed countless of celebrity events, corporate catering in Macy's and Rockefeller Center in midtown Manhattan.
+              <br />
               <br />
               While I love hospitality, I have always wanted to learn web development and sought a way to combine my experience and background into a more creative outlet. After considerable research and even more commitment, I enrolled in UCI's full-time intensive Full Stack Web Development Bootcamp. My empathetic nature, coupled with many years in hospitality and politics has prepared me for the successful completion of the bootcamp and obtained a Certificate in Full Stack Web Development.
               <br />
+              <br />
               I'm not afraid of hard work, in fact I thrive under pressure and stress. I'm looking forward to utilizing my skill set to begin a long and rewarding career as a Web Developer.
+              <br />
               <br />
               Let's work together.
             </Typography>

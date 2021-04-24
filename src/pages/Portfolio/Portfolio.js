@@ -5,7 +5,7 @@ import Container from '@material-ui/core/Container';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Cards from '../../components/Cards'
 import SorteoImg from '../../img/sorteosite.png'
-import HolipaysImg from '../../img/holipays.png'
+import HolipaysImg from '../../img/holipays (2).png'
 import CovidImg from '../../img/COVIDINFORMA.png'
 
 const useStyles = makeStyles((theme) => ({
