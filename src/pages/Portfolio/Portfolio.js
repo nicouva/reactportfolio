@@ -27,6 +27,7 @@ const projects = [
   {
     img: SorteoImg,
     name: 'Sorteo',
+    role: 'Back-end developer: created NoSQL database in tandem with Express & Node.js.',
     description: "Platform that allows social media influencers to host, track and create giveaways/campaigns that randomly selects winners and transparency for followers when signing up.",
     link:"http://ec2-3-86-101-171.compute-1.amazonaws.com:3000/",
     github:"https://github.com/nicouva/mysorteo",
@@ -35,6 +36,7 @@ const projects = [
   {
     img: HolipaysImg,
     name: "Happy Holi-PAYS",
+    role: 'Back-end developer: created SQL database with use of Express & Node.js',
     description: "Holiday themed budget app that's ideal for organizing all the user's various holiday needs.",
     link: "https://pure-bayou-01842.herokuapp.com/index.html",
     github: "https://github.com/nicouva/Project-2",
@@ -43,9 +45,11 @@ const projects = [
   {
     img: CovidImg,
     name: "COVID INFORMA",
+    role: 'Front-end developer: provided research for ideas and designed front end using HTML and CSS',
     description: "Interactive global map tracking COVID-19 cases in real time.",
     link: "https://nicouva.github.io/Project1-COVID19-Map/#",
-    github: "https://github.com/nicouva/Project1-COVID-Map"
+    github: "https://github.com/nicouva/Project1-COVID-Map",
+    cardType: 'maroon'
   }
 ]
 
@@ -69,6 +73,7 @@ const Portfolio = () => {
                   <Cards
                     img={data.img}
                     name={data.name}
+                    role={data.role}
                     description={data.description}
                     link={data.link}
                     github={data.github}

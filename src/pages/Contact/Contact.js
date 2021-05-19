@@ -67,7 +67,6 @@ const Contact = () => {
             </Typography>
 
             <Typography variant="h4" component="h2">
-              Please fill out this form: 
             </Typography>
           </CardContent>
           <Form className={classes.root} noValidate autoComplete="off">

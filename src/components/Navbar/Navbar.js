@@ -44,6 +44,9 @@ const Navbar = () => {
           <Button variant="contained" color="primary">
             <Link to="/reactportfolio/contact">Contact</Link>
           </Button>
+          <Button variant="contained" color="primary">
+            <Link to="/reactportfolio/resume">Resume</Link>
+          </Button>
         </ToolBar>
       </AppBar>
     </div>
