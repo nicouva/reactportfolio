@@ -3,7 +3,6 @@
   [Check out my Portfolio here!](https://nicouva.github.io/reactportfolio)
  
 
-  ## Screenshots:
 
   ## Technologies Used:
   HTML/CSS/JS
